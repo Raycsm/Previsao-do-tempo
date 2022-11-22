@@ -1,0 +1,31 @@
+const cidades = [
+    ["Aracaju", "Sergipe"],
+    ["Belo Horizonte", "Minas Gerais"],
+    ["Belém", "Pará"],
+    ["Brasília", "Distrito Federal"],
+    ["Boa Vista", "Roraima"],
+    ["Campo Grande", "Mato Grosso do Sul"],
+    ["Cuiabá", "Mato Grosso"],
+    ["Curitiba", "Paraná"],
+    ["Florianópolis", "Santa Catarina"],
+    ["Fortaleza", "Ceará"],
+    ["Goiânia", "Goiás"],
+    ["João Pessoa", "Paraíba"],
+    ["Manaus", "Amazonas"],
+    ["Maceió", "Alagoas"],
+    ["Macapá", "Amapá"],
+    ["Natal", "Rio Grande do Norte"],
+    ["Palmas", "Tocantins"],
+    ["Porto Velho", "Rondônia"],
+    ["Porto Alegre", "Rio Grande do Sul"],
+    ["Recife", "Pernambuco"],
+    ["Rio Branco", "Acre"],
+    ["Rio de Janeiro", "Rio de Janeiro"],
+    ["São Paulo", "São Paulo"],
+    ["Salvador", "Bahia"],
+    ["São Luís", "Maranhão"],
+    ["Teresina", "Piauí"],
+    ["Vitória", "Espirito Santo"]
+  ];
+
+export default cidades;

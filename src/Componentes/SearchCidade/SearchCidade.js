@@ -16,7 +16,7 @@ export default function SearchCidade() {
 
       e.preventDefault()
       let cidadeValue = document.querySelector('input[name=NomeCidade]').value;
-      let KEY_ID="736a09872c790ec3d1e8688f80005208"
+      let KEY_ID="2743e9eecc84c0f44b5607c629a3cc66"
 
       const url=(`https://api.openweathermap.org/data/2.5/weather?q=${cidadeValue},bra&appid=${KEY_ID}&units=metric&lang=pt`)
         fetch(url)
@@ -31,7 +31,7 @@ export default function SearchCidade() {
       <div className="titulo">
           <h1><Cloud style={{ fontSize: 35 }}/> Previsão do Tempo</h1>
       </div>
-          <form className="box-input" onSubmit={(e) =>GetWeather(e)}>
+          <form style={{display:'flex', marginTop:60}} onSubmit={(e) =>GetWeather(e)}>
               <input
                   name="NomeCidade"
                   type="text" 
@@ -64,7 +64,7 @@ export default function SearchCidade() {
                   </div> 
               </div>
             </div>
-              ): ""}
+              ): null}
     </div>
   )
 }

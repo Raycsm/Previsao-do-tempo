@@ -1,12 +1,13 @@
 .glass-effect-capitais {
-    color: white;
     text-align: center;
+    font-family: "Montserrat";
+    color: white;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 180px;
-    height: 100px;
-    margin-top: 90px;
+    width: 200px;
+    height: 140px;
+    margin-top: 70px;
     margin-bottom: 20px;
     background: rgba(3, 20, 119, 0.25);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );

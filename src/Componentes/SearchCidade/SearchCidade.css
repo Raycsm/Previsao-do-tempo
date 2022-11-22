@@ -7,21 +7,13 @@
     font-size: 20px;
     text-align: center;
 }
-
-.container{
-  padding-left: 30px;
-}
-
 .container-name{
   display: flex;
 }
 
-.box-input{
-    margin-top: 60px; 
-    margin-left: 500px; 
-}
-
 .input-city{
+  display: block;
+  margin-left: auto;
   width: 250px;
   height: 20px;
   padding: 10px;
@@ -37,7 +29,6 @@
 
 .button{
   font-family: 'Montserrat';
-  margin-left: 20px;
   height: 40px;
   width: 180px;
   cursor: pointer;
@@ -46,6 +37,10 @@
   background-color: rgb(3, 52, 158);
   border: none;
   box-shadow: 10px 1px 10px rgb(1, 4, 91);
+  display: block;
+  margin-left: 10px;
+  margin-right: auto;
+
 }
 
 .button:hover{
