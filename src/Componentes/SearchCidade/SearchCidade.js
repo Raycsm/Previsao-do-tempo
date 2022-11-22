@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import Alert from '@material-ui/lab/Alert';
 import Cloud from '@material-ui/icons/Cloud';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
@@ -22,7 +23,14 @@ export default function SearchCidade() {
         fetch(url)
         .then(res => res.json())
         .then((data) => {
-              setCidade(data);
+
+          if (data.cod ==="404"){
+            <Alert severity="error">Cidade não encontrada ou inválida!</Alert>
+            return;
+          }else{
+            setCidade(data);
+          }
+              
         })
   }
 
@@ -64,7 +72,7 @@ export default function SearchCidade() {
                   </div> 
               </div>
             </div>
-              ): null}
+              ): ""}
     </div>
   )
 }
