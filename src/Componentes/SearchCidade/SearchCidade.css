@@ -1,0 +1,81 @@
+.container{
+    font-family: 'Montserrat';
+}
+
+.titulo{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container{
+  padding-left: 30px;
+}
+
+.container-name{
+  display: flex;
+}
+
+.box-input{
+    margin-top: 60px; 
+    margin-left: 500px; 
+}
+
+.input-city{
+  width: 250px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Montserrat';
+  box-shadow: 10px 1px 10px rgb(1, 4, 91)
+}
+
+.input-city:focus{
+  outline-color: rgb(13, 13, 106);
+}
+
+.button{
+  font-family: 'Montserrat';
+  margin-left: 20px;
+  height: 40px;
+  width: 180px;
+  cursor: pointer;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(3, 52, 158);
+  border: none;
+  box-shadow: 10px 1px 10px rgb(1, 4, 91);
+}
+
+.button:hover{
+  background-color: rgb(58, 72, 151);
+  border: 1px;
+}
+
+.temp{
+  color:black;
+  display: flex;
+  margin-left:40px;
+  background-color: rgb(237, 236, 236);
+  border-radius: 10px;
+  height: 100px;
+  width: 250px;
+  margin-top: 40px;
+}
+ 
+.glass-effect {
+  color: white;
+  width: 520px;
+  height: 230px;
+  margin-top: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(3, 20, 119, 0.25);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.5px );
+  -webkit-backdrop-filter: blur( 13.5px );
+  border-radius: 10px;
+  border: 1px solid rgba(40, 163, 234, 0.18);
+}
